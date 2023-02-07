@@ -154,7 +154,7 @@ function exportButtonClick() {
         console.error("Excel Folder is null");
         return;
     }
-    excelExport.export(localData.excelFolder,localData.dataFolder,localData.scriptFolder,0,1,-1,2,localData.single,()=>{
+    excelExport.export(localData.excelFolder,localData.dataFolder,localData.scriptFolder,0,1,2,3,localData.single,()=>{
         view.exportButton.removeAttribute("loading");
     });
 }

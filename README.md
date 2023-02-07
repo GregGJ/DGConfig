@@ -14,6 +14,16 @@ cocos creator3.x excel导出插件
 2.面板=>DGConfig=>配置导出
 3.选择配置表文件夹和导出代码及二进制文件路径后，点击导出搞定。
 
+#配置表格式
+第一行--属性名
+第二行--数据类型参考
+~~~ts
+    //注意数组内容分隔符为"|"
+    let types=["string","[string]","int","[int]","uint","[uint]","float","[float]","number","[number]"]
+~~~
+第三行--注释
+
+
 #运行时解析
 ~~~ ts
 
